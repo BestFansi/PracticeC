@@ -18,16 +18,16 @@ int main() {
         x = m;
     }
 
+    if(x > z) {
+        m = z;
+        z = x;
+        x = m;
+    }
+
     if(y > z) {
         m = z;
         z = y;
         y = m;
-    }
-
-    if(x > z) {
-        z = m;
-        x = z;
-        z = m;
     }
 
     printf("%d, %d, %d", x, y, z);
