@@ -1,5 +1,6 @@
 //pointers as function arguments - call by reference
 //传引用可以节省很多内存空间
+//指针作为函数参数
 #include <stdio.h>
 void increment(int *p) {
     *p = *p + 1;
