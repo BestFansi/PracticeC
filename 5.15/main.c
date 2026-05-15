@@ -5,5 +5,11 @@
 #include <stdio.h>
 int main() {
     int x, y, z;
-
+    for (int i = 100; i < 1000; i++) {
+        x =;
+        if (i == x * x + y * y + z * z) {
+            printf("%d\n", i);
+        }
+    }
+    return 0;
 }
